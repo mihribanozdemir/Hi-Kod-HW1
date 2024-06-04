@@ -11,11 +11,11 @@ class Homework extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
-        leading: Icon(Icons.menu, color: Colors.white),
+        leading: Icon(Icons.menu, color: Color(0xFFBDF5F2)),
         actions: [
           IconButton(
             onPressed: null,
-            icon: Icon(Icons.person, color: Colors.white),
+            icon: Icon(Icons.person, color: Color(0xFFBDF5F2)),
           ),
         ],
       ),
@@ -26,14 +26,15 @@ class Homework extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () => {},
-              child: Text("Hello World",
+              child: Text(
+                "Hello World",
                 style: TextStyle(
-                color: Colors.white,
-              ),),
+                  color: Color(0xFFBDF5F2),
+                ),
+              ),
               style: ElevatedButton.styleFrom(
                 primary: Colors.indigo,
                 padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
-
               ),
             )
           ],
